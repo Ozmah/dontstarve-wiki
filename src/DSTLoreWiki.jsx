@@ -297,7 +297,10 @@ const DSTLoreWiki = () => {
 								></path>
 							</svg>
 						</button>
-						<h1 className="text-xl font-bold">Don't Starve Together: El Lore</h1>
+						<h1 className="text-xl font-bold">
+							<span className="sm:hidden">DST</span>
+							<span className="hidden sm:block">Don't Starve Together: El Lore</span>
+						</h1>
 					</div>
 
 					<div className="flex space-x-4">
